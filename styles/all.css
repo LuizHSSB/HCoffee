@@ -1,0 +1,20 @@
+*{
+    font-family: "PT Serif", serif;
+}
+
+:root{
+    --blue : #6EB3D0;
+    --green : #B6D7A8;
+    --pink : #F7B6D2;
+    --orange : #F4A623;
+    --black : #000000;
+    --white : #FFFFFF;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.ads{
+    background-color: #F7B6D2;
+}

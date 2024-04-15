@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/all.css">
+    <link rel="shortcut icon" href="../img/icons/icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>HCoffee</title>
+</head>
+<body>
+<header>
+    <!-- navbar header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning" href="#">
+              <img src="../img/icons/icon.svg" width="60" height="60" alt="">
+              HCoffee
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Página Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobremim.html">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active border-bottom border-warning" aria-current="page" href="catalogo.html">Catálogo</a>
+              </li>
+            </ul>
+            <!-- switch theme button -->
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="../img/icons/location.svg" width="23px" height="23px" alt="">
+                        Encontre nossas lojas
+                    </a>
+                </li>
+                <li class="nav-item align-items-center d-flex">
+                    <div class="form-check form-switch">
+                        <input onclick="trocarTemaAtual()" class="form-check-input" type="checkbox" role="switch" id="SwitchTheme">
+                        <label onclick="trocarNomeBotao()" id="switchName" class="form-check-label" for="SwitchTheme">Milk Theme</label>
+                    </div>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<main>
+</main>
+<footer>
+    <h5 class="py-3 bg-success text-white text-center m-0">&copy;HCoffee 2024</h5>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="../scripts/bootstrap.bundle.min.js"></script>
+<script>
+    var ThemeButton = document.querySelector("#SwitchTheme")
+
+    function trocarTemaAtual(){
+        var body = document.querySelector("body")
+        var switchName = document.querySelector("#switchName")
+
+        if(ThemeButton.checked){
+            body.setAttribute("data-bs-theme","dark")
+            switchName.innerHTML = "Coffee Theme"
+        }else{
+            body.setAttribute("data-bs-theme","light")
+            switchName.innerHTML = "Milk Theme"
+        }
+    }
+</script>        
+</body>
+</html>
