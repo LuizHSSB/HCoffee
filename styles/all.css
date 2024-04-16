@@ -16,11 +16,11 @@
 }
 
 .border-ntj{
-    box-shadow: 0px 0px 15px 4px #ffc10763;
+    box-shadow: 0px 0px 15px 4px #198754a1;
 }
 
 .border-ntj2{
-    box-shadow: 0px 0px 15px 4px #ffc10763;
+    box-shadow: 0px 0px 15px 4px #198754a1;
     border: none;
 }
 
@@ -44,4 +44,8 @@
 
 .text-warning2{
     color: #ffc107;
+}
+
+.bg-warning2{
+    background-color: #ffc1071c;
 }
