@@ -16,5 +16,32 @@
 }
 
 .border-ntj{
-    box-shadow: 0px 0px 15px 4px #198754;
+    box-shadow: 0px 0px 15px 4px #ffc10763;
+}
+
+.border-ntj2{
+    box-shadow: 0px 0px 15px 4px #ffc10763;
+    border: none;
+}
+
+.bg-hssbPc{
+    background-image: url(../img/cafes/bg-coffeePc.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-hssbTablet{
+    background-image: url(../img/cafes/bg-coffeeTablet.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-hssbMobile{
+    background-image: url(../img/cafes/bg-coffeeMobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.text-warning2{
+    color: #ffc107;
 }

@@ -30,10 +30,10 @@
                 <a class="nav-link" href="../index.html">Página Inicial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active border-bottom border-warning" aria-current="page" href="sobremim.html">Sobre nós</a>
+                <a class="nav-link" href="catalogo.html">Catálogo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="catalogo.html">Catálogo</a>
+                <a class="nav-link active border-bottom border-warning" aria-current="page" href="sobremim.html">Sobre nós</a>
               </li>
             </ul>
             <!-- switch theme button -->
@@ -56,22 +56,46 @@
       </nav>
 </header>
 <main>
+  <!-- Sobre mim Pc -->
+  <section class="text-center text-warning2 bg-hssbPc d-none d-md-none d-lg-block">
+    <div class="py-4">
+      <h2>HCoffee</h2>
+    </div>
+    <div class="w-100 d-flex flex-column align-items-center">
+      <img src="../img/icons/icon.svg" width="350px" height="350px" alt="">
+      <h2 class="my-4">Quem somos?</h2>
+      <h5 class="text-white mb-4">Somos uma empresa fictícia criada por um aluno do curso de Front-End do Senai-SIG. Nosso maior objetivo é fazer com que o nosso criador obtenha nota máxima em sua avaliação!</h5>
+      <h5 class="text-white">Como estamos sem ideias do que escrever em nossa definição, desejaremos apenas um bom dia!</h5>
+    </div>
+  </section>
+  <!-- Sobre mim Tablet -->
+  <section class="text-center text-warning2 bg-hssbTablet d-none d-md-block d-lg-none w-100">
+    <div class="py-4">
+      <h2>HCoffee</h2>
+    </div>
+    <div class="w-100 d-flex flex-column align-items-center">
+      <img src="../img/icons/icon.svg" width="350px" height="350px" alt="">
+      <h2 class="my-4">Quem somos?</h2>
+      <h5 class="text-white">Somos uma empresa fictícia criada por um aluno do curso de Front-End do Senai-SIG. Nosso maior objetivo é fazer com que o nosso criador obtenha nota máxima em sua avaliação!</h5>
+      <h5 class="text-white">Como estamos sem ideias do que escrever em nossa definição, desejaremos apenas um bom dia!</h5>
+    </div>
+  </section>
+  <!-- Sobre mim Mobile -->
+  <section class="text-center text-warning2 bg-hssbMobile d-md-none">
+    <div class="py-4">
+      <h2>HCoffee</h2>
+    </div>
+    <div class="w-100 d-flex flex-column align-items-center">
+      <img src="../img/icons/icon.svg" width="350px" height="350px" alt="">
+      <h2 class="mt-5 mb-3">Quem somos?</h2>
+      <h5 class="text-white mb-5">Somos uma empresa fictícia criada por um aluno do curso de Front-End do Senai-SIG. Nosso maior objetivo é fazer com que o nosso criador obtenha nota máxima em sua avaliação!</h5>
+      <h5 class="text-white mb-3">Como estamos sem ideias do que escrever em nossa definição, desejaremos apenas um bom dia!</h5>
+    </div>
+  </section>
 </main>
 <footer>
     <h5 class="py-3 bg-success text-white text-center m-0">&copy;HCoffee 2024</h5>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
 <script src="../scripts/bootstrap.bundle.min.js"></script>
 <script>
     var ThemeButton = document.querySelector("#SwitchTheme")
