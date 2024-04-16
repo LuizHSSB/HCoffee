@@ -1,2 +1,2 @@
-# StarbucksClone
- Quase um clone do site Starbucks
+# HCoffee
+ Atividade em sala de aula - Confeitaria
