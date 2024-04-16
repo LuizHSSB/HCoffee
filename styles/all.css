@@ -49,3 +49,7 @@
 .bg-warning2{
     background-color: #ffc1071c;
 }
+
+#SwitchThemeId input:hover{
+    cursor: pointer;
+}
